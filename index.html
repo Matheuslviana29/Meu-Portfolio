@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Matheus Viana</title>
+
+    <link rel="shortcut icon" href="meuicone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo"></a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#experiencias">Experiências</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Oi, eu sou <span>Matheus Viana</span></h1>
+            <h3 class="typing-text">Eu sou <span></span></h3>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas no SENAC, buscando minha primeira oportunidade de estágio em TI. Sou motivado a aprender, contribuir com projetos e crescer profissionalmente na área de tecnologia.</p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/matheusviana-dev/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/matheuslviana29" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5511984860876&text=Olá,%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar." target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="mailto:vianadev29@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="eu2.jpg" alt="Foto de Matheus Viana">
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <h2 class="heading">Minhas <span>Habilidades</span></h2>
+        <div class="habilidades-container">
+            <div class="habilidade-box">
+                <i class='bx bxl-java'></i>
+                <span>Java</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-javascript'></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-html5'></i>
+                <span>HTML</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-css3'></i>
+                <span>CSS</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-react'></i>
+                <span>React</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxs-data'></i>
+                <span>MySQL</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-microsoft'></i>
+                <span>Microsoft Azure</span>
+            </div>
+            <div class="habilidade-box">
+                <i class='bx bxl-git'></i>
+                <span>Git & GitHub</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="heading">Meus <span>Projetos</span></h2>
+        <div class="projetos-container-novo">
+            <div class="projeto-card">
+                <div class="projeto-info">
+                    <h3 class="projeto-titulo">
+                        <i class="bx bx-code-alt"></i>
+                        GYM GUIDE
+                    </h3>
+                    <p class="projeto-descricao">
+                        Um guia de academia interativo, desenvolvido com HTML, CSS e JavaScript para ajudar usuários em seus treinos e visualização de exercícios.
+                    </p>
+                    <div class="projeto-tecnologias">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="projeto-botoes">
+                        <a href="https://github.com/Matheuslviana29/GYM-GUIDE" target="_blank" class="btn-projeto codigo">
+                            <i class="bx bxl-github"></i> Código
+                        </a>
+                        <a href="https://matheuslviana29.github.io/GYM-GUIDE/" target="_blank" class="btn-projeto demo">
+                            <i class="bx bx-link-external"></i> Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="projeto-imagem">
+                    <a href="https://matheuslviana29.github.io/GYM-GUIDE/" target="_blank">
+                        <img src="gymguidelinkedin.png" alt="Imagem do Projeto GYM GUIDE">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experiencias" id="experiencias">
+        <h2 class="heading"><span>Experiências</span> & Formação</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Projeto GYM GUIDE</h3>
+                    <p>Desenvolvimento de uma aplicação web interativa para frequentadores de academia. Criação de um guia de exercícios com funcionalidades de visualização e busca, utilizando HTML, CSS e JavaScript para uma experiência de usuário responsiva e dinâmica.</p>
+                    <span class="date">2024</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p>Centro Universitário SENAC – Santo Amaro</p>
+                    <span class="date">Cursando (2º Semestre)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="heading">Fale <span>Comigo</span></h2>
+        <form id="contact-form" method="POST">
+            <div class="input-box">
+                <input type="text" name="Nome" placeholder="Nome Completo" required>
+                <input type="email" name="Email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="Assunto" placeholder="Assunto" required>
+            </div>
+            <textarea name="Mensagem" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+        <p id="my-form-status"></p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Matheus Viana. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
