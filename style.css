@@ -66,7 +66,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-.habilidades, .experiencias, .contato {
+.habilidades, .experiencias {
     background: var(--second-bg-color);
 }
 
@@ -155,30 +155,30 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4.5rem; /* Aumentei o espaçamento entre as caixas */
-    max-width: 100rem; /* Aumentei a largura máxima do container */
+    gap: 4.5rem;
+    max-width: 100rem;
     margin: auto;
 }
 .habilidade-box {
     background: var(--bg-color);
-    padding: 3.5rem 5.5rem; /* Aumentei o padding para deixar a caixa maior */
+    padding: 3.5rem 5.5rem;
     border-radius: .8rem;
     border: .2rem solid var(--main-color);
     transition: .5s;
     display: flex;
     align-items: center;
-    gap: 1.8rem; /* Ajustado o gap entre o ícone e o texto */
+    gap: 1.8rem;
 }
 .habilidade-box:hover {
     box-shadow: 0 0 1.5rem var(--main-color);
     transform: translateY(-5px);
 }
 .habilidade-box i {
-    font-size: 5rem; /* Aumentei o tamanho do ícone */
+    font-size: 5rem;
     color: var(--main-color);
 }
 .habilidade-box span {
-    font-size: 2.4rem; /* Um leve ajuste no texto para acompanhar o ícone maior */
+    font-size: 2.4rem;
     font-weight: 500;
 }
 
@@ -368,121 +368,6 @@ section {
     margin-top: 1rem;
 }
 
-.contato {
-    padding-top: 15rem; 
-}
-
-.contato form {
-    max-width: 70rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.contato form .input-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contato form .input-box input,
-.contato form textarea {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-    border: .2rem solid var(--main-color);
-}
-
-.contato form .input-box input {
-    width: 49%;
-}
-
-.contato form textarea {
-    resize: none;
-}
-
-.btn {
-    position: relative;
-    display: inline-block;
-    padding: 1.2rem 2.8rem;
-    background: var(--main-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
-    color: var(--bg-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    transition: .5s ease;
-    cursor: pointer;
-    margin-top: 2rem;
-    overflow: hidden;
-}
-
-.btn:hover {
-    box-shadow: none;
-}
-
-.btn .btn-text, .btn .btn-icon {
-    display: inline-block;
-    transition: opacity 0.3s, transform 0.3s;
-}
-
-.btn .btn-icon {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-}
-
-.btn.is-sending .btn-text {
-    opacity: 0;
-    transform: translateY(-10px);
-}
-
-.btn.is-sending .btn-icon {
-    opacity: 1;
-}
-
-.btn.is-sending .btn-icon::before {
-    content: '';
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    border: 3px solid var(--bg-color);
-    border-top-color: transparent;
-    border-radius: 50%;
-    animation: spin 0.6s linear infinite;
-}
-
-.btn.is-success .btn-icon::before {
-    content: '✔️';
-    font-size: 2rem;
-    color: var(--bg-color);
-    animation: none;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
-
-#my-form-status {
-    width: 100%;
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 2rem;
-}
-
-.btn:disabled {
-    background: #0077aa;
-    box-shadow: none;
-    cursor: not-allowed;
-}
-
 .footer {
     padding: 2rem 9%;
     text-align: center;
@@ -518,9 +403,6 @@ section {
         padding-left: 7rem;
     }
     .timeline-item::after { left: 15px; }
-    .contato form .input-box input {
-        width: 100%;
-    }
     .projeto-card {
         padding: 2.5rem;
         border-left-width: 4px;
