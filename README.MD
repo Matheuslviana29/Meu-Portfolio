@@ -1,7 +1,5 @@
 # Meu Portfólio | Matheus Viana
 
-![Prévia do Portfólio](gymguidelinkedin.png)
-
 ##  Sobre
 
 Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e experiências na área de tecnologia. O projeto foi criado com o objetivo de ser um espaço centralizado para demonstrar meu trabalho e minha jornada como desenvolvedor.
@@ -46,3 +44,4 @@ $ git clone [https://github.com/matheuslviana29/meu-portfolio.git](https://githu
 $ cd meu-portfolio
 
 # 3. Abra o arquivo index.html no seu navegador de preferência.
+
